@@ -1,2 +1,17 @@
 test:
   name: Test Cloud
+  
+spring:
+  security:
+    oauth2:
+    client:
+      registration:
+        github:
+          provider: github
+          client-id:  edb778fc55e695a12970
+          client-secret: 666a7295fe59838624362f5522d38d94a762f509
+          scope: user:email, read:user
+          client-name: Sign in with GitHub
+      provider:
+        github:
+          user-name-attribute: login

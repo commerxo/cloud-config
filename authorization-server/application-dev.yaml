@@ -7,7 +7,7 @@ spring:
     oauth2:
      client:
        registration:
-         google-idp:
+         google:
            provider: google
            client-id: 246411264163-fm3kcsbvmmmski7obhr4b6prij28pd7l.apps.googleusercontent.com 
            client-secret: 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

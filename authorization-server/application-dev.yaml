@@ -11,7 +11,7 @@ spring:
            provider: google
            client-id: 246411264163-fm3kcsbvmmmski7obhr4b6prij28pd7l.apps.googleusercontent.com 
            client-secret: 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
-           scope: openid, https://www.googleapis.com/auth/userinfo.profile, https://www.googleapis.com/auth/userinfo.email
+           scope: https://www.googleapis.com/auth/userinfo.profile, https://www.googleapis.com/auth/userinfo.email
            client-name: Sign in with Google
          github:
            provider: github

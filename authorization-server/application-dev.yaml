@@ -1,6 +1,8 @@
 test:
   name: Test Cloud
-
+  
+server:
+  port: 9090
 #//simplignostic
 spring:
   security:

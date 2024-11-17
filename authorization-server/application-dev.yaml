@@ -3,6 +3,17 @@ test:
   
 server:
   port: 9090
+
+logging:
+  level:
+    root: DEBUG
+  org:
+    hibernate:
+      SQL: DEBUG
+      type: TRACE
+    springframework:
+      security: DEBUG
+      web: DEBUG
 #//simplignostic
 spring:
   security:

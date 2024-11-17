@@ -37,3 +37,44 @@ spring:
            user-name-attribute: email
          github:
            user-name-attribute: login
+
+app:
+  mail:
+    username: jainshashank562@gmail.com
+    password: wpjfvcyonutyzdux
+    host: smtp.gmail.com
+    port: 587
+    smtp: true
+    tls: true
+    debug: true
+    testConnection: true
+
+  security:
+    login:
+      max-count: 3
+
+  jwt:
+    encryptor:
+      password: password
+      salt: 626F6F746966756C
+  secret:
+    key: yVMO9QNJ5i2IBZLZCuJPGg==
+
+  twilio:
+    sid: AC0031223f42f5e05f9de55ca055f53928
+    token: b69d149400b0a077c3077c2daa5c800c
+    phoneNo: +13083002653
+
+  secure:
+    token:
+      expireAfter: 1800
+    otp:
+      expireAfter: 1800
+      length: 6
+
+  aws:
+    s3:
+      accessKey: AKIA4KKLS7OTUPTMNFVB
+      secretKey: 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
+      region: us-east-1
+      bucketName: dd

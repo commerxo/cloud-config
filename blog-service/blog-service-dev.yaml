@@ -21,7 +21,14 @@ swagger:
     authorization-uri: http://localhost:9090/oauth2/authorize
     token-uri: http://localhost:9090/oauth2/token
 
-
+app:
+  aws:
+    s3:
+      accessKey: AKIASU566SBM2YISSVMM
+      secretKey: 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
+      region: ap-south-1
+      bucketName: bugflu-data
+      
 logging:
   level:
     root: DEBUG

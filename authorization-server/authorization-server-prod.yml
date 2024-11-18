@@ -1,19 +1,5 @@
-test:
-  name: Test Cloud
-  
 server:
-  port: 5000
-
-logging:
-  level:
-    root: DEBUG
-  org:
-    hibernate:
-      SQL: DEBUG
-      type: TRACE
-    springframework:
-      security: DEBUG
-      web: DEBUG
+  port: 5001
       
 #//simplignostic
 spring:

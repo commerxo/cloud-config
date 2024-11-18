@@ -9,13 +9,6 @@ spring:
           jwk-set-uri: http://idpserver.ap-south-1.elasticbeanstalk.com/oauth2/jwks
           issuer-uri: http://idpserver.ap-south-1.elasticbeanstalk.com
 
-app:
-  aws:
-    s3:
-      accessKey: AKIASU566SBM2YISSVMM
-      secretKey: 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
-      region: ap-south-1
-      bucketName: bugflu-data
       
 springdoc:
   swagger-ui:

@@ -1,6 +1,10 @@
 server:
   port: 5001
-      
+
+
+test:
+  name: Test Cloud
+  
 #//simplignostic
 spring:
   security:

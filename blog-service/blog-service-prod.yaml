@@ -6,7 +6,7 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          jwk-set-uri: http://idpserver.ap-south-1.elasticbeanstalk.com
+          jwk-set-uri: http://idpserver.ap-south-1.elasticbeanstalk.com/oauth2/jwks
           issuer-uri: http://idpserver.ap-south-1.elasticbeanstalk.com
 
 

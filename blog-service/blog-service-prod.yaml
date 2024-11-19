@@ -21,10 +21,4 @@ swagger:
     authorization-uri: http://idpserver.ap-south-1.elasticbeanstalk.com/oauth2/authorize
     token-uri: http://idpserver.ap-south-1.elasticbeanstalk.com/oauth2/token
 
-app:
-  aws:
-    s3:
-      accessKey: AKIASU566SBMQVN3VF4W
-      secretKey: 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
-      region: ap-south-1
-      bucketName: bugflu-data
+

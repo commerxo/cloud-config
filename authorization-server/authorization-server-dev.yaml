@@ -1,7 +1,8 @@
 test:
   name: Test Cloud
   
-
+server:
+  port: 9090
 logging:
   level:
     root: DEBUG

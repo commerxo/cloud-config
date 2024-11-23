@@ -6,17 +6,8 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          key-value:
-            -----BEGIN PUBLIC KEY-----
-            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo0iCbSEckiP trjxXsNLLlfaP rQw0Sr
-            eBBc qNG/KlQuezJPMiet4YWgxV5isGAlO1Nzn4T9QEOzZV/KPCAEJn9p4IhtTC6eSHpJTI0m4Mc
-            b6gU8yIK8cHak26jw gvVTZlvBRWoVDSMssfVrkp pYydW9OlrjEZYfkCD80MMDfWB0zskoF4KEV
-            NKyyEI0W99DxheGCKM/B cSvmcbuVWWyNp0x xLk2ww0uZjCrOFAJA3nbkXKWIltLWpb x/x1aiJ
-            BfBbIjGUyGs5C/YBX/53ZrRZZZzI3SqNEZ5fUndQd47xHR81iA2u/x6tUS04hXPkaLl/DXxfoZUz
-            Dm9WHQIDAQAB
-            -----END PUBLIC KEY-----
-          # jwk-set-uri: http://localhost:9090/oauth2/jwks
-          issuer-uri: https://localhost:9090
+          jwk-set-uri: http://localhost:9090/oauth2/jwks
+          issuer-uri: http://localhost:9090
 
 
 springdoc:

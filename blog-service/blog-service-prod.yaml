@@ -6,8 +6,8 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          jwk-set-uri: http://idpserver.ap-south-1.elasticbeanstalk.com/oauth2/jwks
-          issuer-uri: http://idpserver.ap-south-1.elasticbeanstalk.com
+          jwk-set-uri: https://localhost:9090/oauth2/jwks
+          issuer-uri: https://localhost:9090
 
       
 springdoc:
@@ -18,7 +18,7 @@ springdoc:
 
 swagger:
   oauth2:
-    authorization-uri: http://idpserver.ap-south-1.elasticbeanstalk.com/oauth2/authorize
-    token-uri: http://idpserver.ap-south-1.elasticbeanstalk.com/oauth2/token
+    authorization-uri: https://localhost:9090/oauth2/authorize
+    token-uri: https://localhost:9090/oauth2/token
 
 
